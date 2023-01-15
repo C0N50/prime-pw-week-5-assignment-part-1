@@ -17,6 +17,7 @@ const me = {
   favThreeFoods: ['Tacos', 'Pizza', 'Cheeseburgers']
 };
 console.log('#1: A little about me:', me);
+console.log(`#1: A little about me another way: My name is ${me.firstName} ${me.lastName}. It's ${me.hasSiblings} I have siblings. I have ${me.shoeCount} pairs of shoes, My favorite foods are ${me.favThreeFoods[0]}, ${me.favThreeFoods[1]}, and ${me.favThreeFoods[2]}`);
 console.log('\n\n');
 
 /* 2. Accessing object properties.
@@ -61,3 +62,4 @@ console.log('\n\n');
 
 me.favoriteColor = 'Cyan';
 console.log ('A brief look at my qualities', me);
+console.log(`#1: A brief look at my qualities another way: My name is ${me.firstName} ${me.lastName}. It's ${me.hasSiblings} I have siblings. I have ${me.shoeCount} pairs of shoes. My favorite foods are ${me.favThreeFoods[0]}, ${me.favThreeFoods[1]}, and ${me.favThreeFoods[2]} My favorite color is ${me.favoriteColor}.`);
